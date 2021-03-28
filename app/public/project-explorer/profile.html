@@ -10,13 +10,12 @@
 
 <h2>One Stop Database for Academic Projects</h2>
 <nav>
-    <ul>
-        <li><a href ="index.html"> Home</a></li>
-        <li><a href ="search.html"> Projects</a></li>
-        <li><a href ="login.html"> Login</a></li>
-        <li><a href ="register.html"> Register</a></li>
-        <li><a href ="createproject.html"> Submit</a></li>
-    </ul>
+    <a href ="index.html"> Home</a>
+    <a href ="search.html"> Projects</a>
+    <a href ="login.html"> Login</a>
+    <a href ="register.html"> Register</a>
+    <a href ="createproject.html"> Submit</a>
+
     </nav>
     <section>
         <h1>John Doe</h1>
@@ -36,8 +35,13 @@
     <input type="email" value = "Email_address"/>
     <input type="password" value = "password"/>
     <input type="text" value = "Matric_number"/>
-    <select> Program <label>"Computer Science"> "Software Engineering"</label></select>
-    <select> Graduation Year <input type="datetime"> </select>
+    <label for="Program">Program: </label>
+
+<select name="program" id="Program">
+  <option value="Computer Sci">Computer Sci</option>
+  <option value="Software Engineering">Software Eng</option>
+</select>
+    Graduation Year: <input type="datetime">
 
     <input type="submit"/> 
 </form>

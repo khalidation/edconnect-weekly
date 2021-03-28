@@ -10,25 +10,30 @@
 
 <h2>One Stop Database for Academic Projects</h2>
 <nav>
-    <ul>
-        <li><a href ="index.html"> Home</a></li>
-        <li><a href ="search.html"> Projects</a></li>
-        <li><a href ="login.html"> Login</a></li>
-        <li><a href ="register.html"> Register</a></li>
-        <li><a href ="createproject.html"> Submit</a></li>
-    </ul>
+    <a href ="index.html"> Home</a>
+    <a href ="search.html"> Projects</a>
+    <a href ="login.html"> Login</a>
+    <a href ="register.html"> Register</a>
+    <a href ="createproject.html"> Submit</a>
+
     </nav>
 
     <h1>Signup</h1>
 
-    <input type="text" value = "First_name"/>
-    <input type="text" value = "Last_name"/>
-    <input type="password" value = "password"/>
-    <input type="email" value = "Email_address"/>
-    <input type="text" value = "Matric_number"/>
-    <select> <input type="text" value = "Program"/><label> Computer Science Software Engineering</label> </select>
+   First Name: <input type="text" value = "First_name"/>
+    Last Name: <input type="text" value = "Last_name"/>
+   Password:  <input type="password" value = "password"/>
+    Email Adress: <input type="email" value = "Email_address"/>
+    Matric Number: <input type="text" value = "Matric_number"/>
+    <label for="Program">Program: </label>
 
-    <select> <input type= "date" value ="Graduation Year"/></select>
+<select name="program" id="Program">
+  <option value="Computer Sci">Computer Sci</option>
+  <option value="Software Engineering">Software Eng</option>
+</select>
+   
+
+    Year: <input type= "date" value ="Graduation Year"/>
     <input type="submit" />
 
 
